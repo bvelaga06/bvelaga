@@ -7,6 +7,7 @@
 #############################
 #!/bin/bash
 #set -x
+#set -o | pipefail
 echo "##############################" > myreportaws
 echo "Date : $(date)" >> myreportaws
 #Listing awss3 buckets
